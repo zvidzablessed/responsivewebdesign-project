@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tribute Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    #title {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    #img-div {
+      text-align: center;
+      margin: 1rem 0;
+    }
+
+    #image {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+      border-radius: 8px;
+    }
+
+    #img-caption {
+      font-style: italic;
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+    }
+
+    #tribute-info {
+      margin-top: 2rem;
+      font-size: 1.1rem;
+    }
+
+    #tribute-link {
+      display: inline-block;
+      margin-top: 1.5rem;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
+
+    #tribute-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <main id="main">
+    <h1 id="title">Ada Lovelace</h1>
+
+    <div id="img-div">
+      <img
+        id="image"
+        src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Ada_Lovelace_portrait.jpg"
+        alt="Portrait of Ada Lovelace"
+      />
+      <figcaption id="img-caption">
+        Ada Lovelace, the visionary mathematician and writer, known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine.
+      </figcaption>
+    </div>
+
+    <section id="tribute-info">
+      <p>
+        Augusta Ada King, Countess of Lovelace (1815–1852), was an English mathematician and writer, chiefly known for her work on Charles Babbage's early mechanical general-purpose computer, the Analytical Engine. Her notes on the engine include what is recognized as the first algorithm intended to be carried out by a machine, and as a result, she is often regarded as the first computer programmer. Ada's foresight into the capabilities of computing devices extended well beyond number crunching to general-purpose processing of symbols and data.
+      </p>
+    </section>
+
+    <a
+      id="tribute-link"
+      href="https://en.wikipedia.org/wiki/Ada_Lovelace"
+      target="_blank"
+    >
+      Learn more about Ada Lovelace
+    </a>
+  </main>
+</body>
+</html>
